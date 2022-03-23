@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="src/assets/linkedin.png" type="image.png" />
+    <link href="src/css/style.css" rel="stylesheet"/>
+    <link href="src/css/darkmode.css" rel="stylesheet"/>
+    <link href="src/css/global.css" rel="stylesheet"/>
+    <link href="src/css/header.css" rel="stylesheet"/>
+    <link href="src/css/button.css" rel="stylesheet"/>
+    <link href="src/css/responsive.css" rel="stylesheet"/>
+    <title>Clone Tela de login | Linkedin</title>
+  </head>
+  <body>
+    <header>
+      <img src="src/assets/LinkedIn-Logo-removebg-preview.png"/>
+      <div class="botao">
+      <input type = "submit" value = "Dark Mode" id = "buttonMode" onclick="mudarTema()">
+    </div>
+    </header>
+
+    <main class="container">
+
+      <div class="content">
+        <div class="tituloParagrafo">
+          <h1 class="entrar">Sign in</h1>
+          <p class="p1">Stay updated on your professional world</p>
+        </div>
+        <form method="POST" action="" class = "form">
+          <div class="login">
+            <div class="loginAnimation">
+                <input
+                  type="text"
+                  name="email-or-tel"
+                  id="email-or-tel"
+                  required
+                  validation="email|tel"
+                />
+              <span>Email or Phone</span>
+            </div>
+
+            <div class="passwordAnimation">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+              />
+              <span>Password</span>
+            </div>
+          </div>
+
+          <div class="forgot">
+            <a class="link1" href="forgortpass">Forgot password?</a>
+          </div>
+
+          <div class="div-bottom">
+            <input type="submit" value="Sign in" id="bottom" />
+          </div>
+
+          <div class="or">
+            <p>or</p>
+          </div>
+
+          <div class="div-bottom2">
+            <button type="submit"  id="b1" class = "botaoFinal">
+              <img src = "src/assets/email-imagem-removebg-preview.png" class = "imgbtn emailbtn"></svg> 
+              <label>Sign in with Google</label>
+              </button>
+            <button type="submit" id="b2" class = "botaoFinal"> 
+              <img src = "src/assets/apple-removebg-preview.png" class = "imgbtn applebtn">
+              <label class = "appleLabel">Sign in with Apple</label>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="fora">
+        <p>New to Linkedin? <a href="" class="link2">Join now</a></p>
+      </div>
+    </main>
+
+
+
+  <script src = "src/js/index.js"></script>
+  </body>
+</html>

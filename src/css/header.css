@@ -1,0 +1,31 @@
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:20px;
+  }
+  
+  header img {
+    width: 112px;
+    margin-left: calc(55px - 20px);
+  }
+  
+  header #buttonMode{
+    width: 100px;
+    height: 30px;
+    background:#ffffff;
+    color:#000000;
+    font-size:1em;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
+    cursor:pointer;
+    border-radius:40px;
+  }
+  
+  header #buttonMode:hover{
+    transform: scale(1.05);
+    background:#1c1c1c;
+    color:#ffffff;
+    box-shadow: 1px 1px 6px 2px #000000;
+  }
+  

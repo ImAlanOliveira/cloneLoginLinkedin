@@ -1,0 +1,1 @@
+Olá, esse é um clone da tela de login do LinkedIn utilizando HTML5, CSS3 e JavaScript. O JS foi utilizado no projeto com o objetivo de criar o botão Dark Mode para alterar o tema da página (não tem isso na original). Qualquer dica ou crítica é super bem vinda pois me encontro em fase de aprendizado, esse projeto foi um treino para reforçar os conceitos estudados.

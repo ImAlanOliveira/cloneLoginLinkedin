@@ -1,0 +1,44 @@
+
+.dark{
+    background:#1c1c1c;
+}
+
+.dark #buttonMode{
+    background-color:#1c1c1c;
+    color:#ffffff;
+    border:1px solid white;
+}
+
+.dark #buttonMode:hover{
+    background-color:#ffffff;
+    color:#1c1c1c;
+    box-shadow: 1px 1px 6px 2px #ffffff;
+}
+
+.dark .container{
+    background:#1c1c1c;
+    box-shadow:0 4px 12px rgb(255, 255, 255);
+    
+}
+  
+.dark h1, .dark p{
+      color:#ffffff;
+}
+
+.dark .botaoFinal:hover {
+    background-color: rgba(121, 113, 113, 0.952);
+}
+
+.dark .botaoFinal{
+    background-color:#615d5d;
+    color:#bbbbbb;
+}
+
+.dark .or p{
+    color: rgb(156, 151, 151);
+}
+
+.dark input{
+    background-color:#615d5d;
+    color:#ffffff;
+}

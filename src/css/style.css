@@ -1,0 +1,119 @@
+.container {
+  position: relative;
+  top: 8vh;
+  left: 0px;
+  bottom: 50px;
+  right: 0px;
+  margin: auto; 
+  width: 352px;
+  height: 531.97px;
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  padding-top: 22px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+}
+
+.loginAnimation span{
+  position:absolute;
+  top:40px;
+  left:13px;
+  font-size:20px;
+  font-weight:100;
+  pointer-events:none;
+  transition:0.5s;
+  opacity: .5;
+}
+
+.loginAnimation input:focus ~ span,
+.loginAnimation input:valid ~ span,
+.passwordAnimation input:focus ~ span,
+.passwordAnimation input:valid ~ span{
+  transform: translateY(-10px);
+  font-size:13px;
+}
+
+.passwordAnimation span{
+  position:absolute;
+  left:15px;
+  top:115px;
+  font-size:20px;
+  font-weight:100;
+  pointer-events:none;
+  transition:0.5s;
+  opacity:.5;
+}
+
+.tituloParagrafo{
+  margin-bottom:90px;
+}
+
+#email-or-tel, #password {
+  width: 304px;
+  padding: 20px 12px 6px 12px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top:25px;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #0073b1;
+  font-size: 18px;
+  position: absolute;
+  top: 165px;
+}
+
+.link1:hover{
+  color: #025f90;
+}
+
+form {
+  position: absolute;
+  top: 85px;
+}
+
+.or {
+  position: absolute;
+  top: 275px;
+}
+
+main .or p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(43, 41, 41, 0.6);
+  position: relative;
+  left: 146px;
+}
+
+main .or p::before,
+main .or p::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 110px;
+  bottom: 50%;
+  background-color: rgba(160, 145, 145, 0.4);
+  right: 50px;
+}
+main .or p::after {
+  left: 50px;
+}
+
+.fora {
+  font-size: 18px;
+  color: #000000;
+  position: absolute;
+  top: 570px;
+  left: 80px;
+}
+
+.link2 {
+  text-decoration: none;
+  color: #0a66c2;
+}
+
+.link2:hover{
+  color:#094f95;
+}

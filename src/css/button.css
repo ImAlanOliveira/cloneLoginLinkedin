@@ -1,0 +1,67 @@
+.div-bottom {
+    position: absolute;
+    top: 210px;
+  }
+  
+  #bottom {
+    cursor: pointer;
+    width: 304px;
+    padding: 18px;
+    border-radius: 28px;
+    background-color: #0a66c2;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  
+  #bottom:hover {
+    background-color: #004182;
+  }
+
+  .div-bottom2 {
+    position: absolute;
+    top: 315px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .botaoFinal {
+    cursor: pointer;
+    width: 304px;
+    padding: 15px;
+    border-radius: 28px;
+    margin-bottom:12px;
+    background-color: white;
+    border: 1px solid gray;
+    color: rgb(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 1rem;
+    height:53px;
+  }
+  
+  .botaoFinal:hover {
+    background-color: rgb(0, 0, 0, 0.04);
+    border:1.5px solid rgb(8, 8, 8);
+  }
+  
+  .imgbtn{
+    width:24px;
+    display:flex;
+    margin-left:20%;
+  }
+  
+  .emailbtn{
+    width:20px;
+  }
+  
+  button label{
+    cursor:pointer;
+    position:absolute;
+    font-size:15px;
+    left:33%;
+    top:14%;
+  }
+  
+  .appleLabel{
+    top:64%;
+  }

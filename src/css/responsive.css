@@ -1,0 +1,16 @@
+@media (max-width:770px){
+    
+    .container{
+        box-shadow: none;
+        top:-30px;
+        left:-20px;
+    }
+
+    .dark .container{
+        box-shadow:none;
+    }
+
+    #email-or-tel, #password, .botaoFinal, #bottom{
+        width:350px;
+    }
+}
